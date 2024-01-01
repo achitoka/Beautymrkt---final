@@ -1,0 +1,216 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    background-color: #F2E8E9;
+  }
+  
+.grid-container > div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 0;
+  }
+
+.title {
+    color: #4C385B;
+    font-family: "Caveat Brush";
+    font-size: 30px;
+    letter-spacing: 0.5 px;
+    font-weight: 200;
+}
+
+.logo > .simple-text {
+    color: #4C385B;
+    font-family: "Caveat Brush";
+    font-size: 50px;
+    letter-spacing: 0.5 px;
+    font-weight: 200;
+}
+
+
+.alert{
+    margin: auto;
+    background-color: #FFABC4;
+    width: 300px;
+    border-radius: 5px;
+    color: #4C385B;
+    font-size: 15px;
+    border: transparent;
+    font-family: "Poppins";
+}
+
+.form-login{
+    margin: auto;
+    background-color: #6BA9BF;
+    font-family: "Poppins";
+    border-radius: 30px;
+    width: 480px;
+    height: 400px;
+    padding-top: 5px;
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+
+.form-login h2{
+    color: #FFF6EC;
+    font-size: 48px;
+}
+
+.Signup{
+    color: #FFF6EC;
+    margin: 30px 0;
+    font-size: 25px;
+    font-family: "Caveat Brush";
+}
+
+.Signup p a{
+    color: #4C385B;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.Signup a:hover{
+    text-decoration: underline;
+}
+
+.form-login .input-box1{
+    position: relative;
+    background: transparent;
+    width: 380px;
+    height: 40px;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.input-box1 input{
+    width: 100%;
+    height: 100%;
+    background: #FFF6EC;
+    border: transparent;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.input-box1  input::placeholder{
+    color: #6BA9BF;
+    font-size: 15px;
+  
+}
+
+.input-box1 i{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #4C385B;
+    font-size: 25px;
+}
+
+.btn-signup{
+    background-color: #4C385B;
+    border-radius: 5px;
+    width: 400px;
+    height: 50px;
+    margin: -15px 0;
+    color: #FFABC4;
+    font-size: 25px;
+    border: transparent;
+    font-family: "Caveat Brush";
+}
+
+.btn-login{
+    background-color: #4C385B;
+    border-radius: 5px;
+    width: 400px;
+    height: 50px;
+    margin: 20px 0;
+    color: #FFABC4;
+    font-size: 25px;
+    border: transparent;
+    font-family: "Caveat Brush";
+}
+
+.termofcondition {
+    color: #4C385B;
+    font-family: "Poppins";
+    margin:  12px;
+    font-size: 10px;
+}
+
+.form-regis{
+    margin: auto;
+    justify-content: center;
+    background-color: #6BA9BF;
+    font-family: "Poppins";
+    border-radius: 30px;
+    padding-top: 5px;
+    width: 520px;
+    height: 480px;
+}
+
+.form-regis img{
+    position: absolute;
+    left: 100px;
+    object-fit: cover;
+}
+
+.form-regis h2{
+    color: #FFF6EC;
+    font-size: 48px;
+}
+
+.form-regis .input-box{
+    position: relative;
+    background: transparent;
+    width: 380px;
+    height: 40px;
+    margin: 20px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: #FFF6EC;
+    border: transparent;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.input-box  input::placeholder{
+    color: #6BA9BF;
+    font-size: 15px;
+}
+
+.input-box  p{
+    display: flex;
+    justify-content: start;
+    color: #FFF6EC;
+    font-size: 12px;
+    transform: translateY(-10%);
+}
+
+.login{
+    font-family: "Caveat Brush";
+    color: #FFF6EC;
+    font-size: 25px;
+    transform: translateY(-20%);
+    margin: 20px;
+}
+
+.login p a{
+    color: #4C385B;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.login a:hover{
+    text-decoration: underline;
+}
