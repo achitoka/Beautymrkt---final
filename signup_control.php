@@ -18,6 +18,16 @@ if(isset($_POST['register'])) {
         die;
     }
 
+	// Check if email already exists
+    $check_email_query = "SELECT * FROM users WHERE email = '$email'";
+    $check_email_result = mysqli_query($conn, $check_email_query);
+
+    if (mysqli_num_rows($check_email_result) > 0) {
+        echo "This email is already registered.";
+        echo "<br><br> <button type='button' onclick='history.back();'> Back </button>";
+        die;
+    }
+	
     // Insert tabel user
     // $sql_user = "INSERT INTO users () values ('')";
     $sql_user = "INSERT INTO users (nama, email, password, level) values ('$nama', '$email', '$password', '$level')";
